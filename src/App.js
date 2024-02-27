@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
+import Me from './Components/Me'
+import Projects from './Components/Projects'
+import NavBar from './Components/NavBar'
+import AboutMe from './Components/AboutMe'
+import Slider from './Components/Slider'
+import Hobbies from './Components/Hobbies'
+import Scrollbutton from './Components/Scrollbutton'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+    render() {
+        return (
+            <div className='App'>
+                <NavBar />
+                <Me scrollToSection={this.scrollToSection} />
+                <AboutMe />
+                <Slider />
+                <Projects />
+                <Hobbies />
+                <Scrollbutton />
+            </div>
+        )
+    }
 }
 
 export default App;
