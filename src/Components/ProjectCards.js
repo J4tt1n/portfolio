@@ -10,8 +10,7 @@ const ProjectCards = (props) =>
             <div className='project-date'>{props.duration}</div>
             <div className='project-content'>{props.description}</div>
         </div>
-        <div><a href={props.link} className='project-extra' target='_blank' rel='noopener noreferrer'>Read More</a></div>
-        
+        <div><a href={props.link} className='project-extra' rel='noopener noreferrer'>Read More</a></div>
     </div>
 }
 

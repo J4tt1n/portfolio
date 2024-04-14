@@ -3,10 +3,10 @@ import './App.css'
 import Me from './Components/Me'
 import Projects from './Components/Projects'
 import NavBar from './Components/NavBar'
-import AboutMe from './Components/AboutMe'
 import Slider from './Components/Slider'
 import Hobbies from './Components/Hobbies'
 import Scrollbutton from './Components/Scrollbutton'
+import TechStack from './Components/TechStack'
 
 class App extends Component {
 
@@ -15,7 +15,7 @@ class App extends Component {
             <div className='App'>
                 <NavBar />
                 <Me scrollToSection={this.scrollToSection} />
-                <AboutMe />
+                <TechStack />
                 <Slider />
                 <Projects />
                 <Hobbies />

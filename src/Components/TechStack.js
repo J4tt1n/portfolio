@@ -1,84 +1,79 @@
-import React, { Component } from 'react'
-import '../App.css'
-import clogo from '../logos/c.svg'
-import cpplogo from '../logos/c++.svg' 
-import mysqllogo from '../logos/mysql.svg'
-import htmllogo from '../logos/html.svg'
-import csslogo from '../logos/css.svg'
-import jslogo from '../logos/javascript.svg'
-import reactlogo from '../logos/react.svg'
-import pythonlogo from '../logos/python.svg'
-import javalogo from '../logos/java.svg'
-import { MdKeyboardArrowDown } from "react-icons/md";
+import React, { useState } from 'react'
+import html from '../logos/html.svg'
+import css from '../logos/css.svg'
+import js from '../logos/js.svg'
+import react from '../logos/react.svg'
+import cplusplus from '../logos/cplusplus.svg'
+import dsa from '../logos/dsa.png'
+import mysql from '../logos/mysql.svg'
+import sqlserver from '../logos/mssql.png'
+import tableau from '../logos/tableau.svg'
+import powerbi from '../logos/powerbi.svg'
+import excel from '../logos/excel.svg'
+import python from '../logos/python.svg'
+import java from '../logos/java.svg'
 
-class TechStack extends Component {
+function TechStack() {
 
-    constructor()
-    {
-        super()
-        this.state = {
-            opened : 0,
-            images : [
-                {id:1, text: 'C', imageURL: clogo, 'pro': '0.95'}, 
-                {id:2, text: 'C++', imageURL: cpplogo, 'pro': '0.95'}, 
-                {id:3, text: 'MySQL', imageURL: mysqllogo, 'pro': '0.95'}, 
-                {id:4, text: 'HTML', imageURL: htmllogo, 'pro': '0.9'}, 
-                {id:5, text: 'CSS', imageURL: csslogo, 'pro': '0.85'}, 
-                {id:6, text: 'JavaScript', imageURL: jslogo, 'pro': '0.9'}, 
-                {id:7, text: 'React', imageURL: reactlogo, 'pro': '0.65'}, 
-                {id:8, text: 'Python', imageURL: pythonlogo, 'pro': '0.7'}, 
-                {id:9, text: 'Java', imageURL: javalogo, 'pro': '0.7'}, 
-                
-            ]
-        }
-    }
 
-    dropdown() {
-        this.setState ({
-            opened : 1 - this.state.opened
-        });
-    }
-
-    render() {
-        let direction, content, dropdown
-        const imageList = this.state.images.map((image) => (
-            <dd key={image.id} className='techlist'>
-                <img src={image.imageURL} alt={image.text} className='imageb4text'/>
-                <span>{image.text}</span>
-                <span className='bars' style={{ width: `${(image.pro * 22) + 'vw'}` }}></span>
-                <span className='fullbar'></span>
-            </dd>
-        ));
-
-        const justImages = this.state.images.map((image) => (
-            <span key={image.id} className='logo'>
-                <img src={image.imageURL} alt={image.text}></img>
-            </span>
-        ))
-        if(this.state.opened === 0)
-        {
-            content = <span className='justimages'>
-                {justImages}
-                </span>;
-            direction = 'down'
-        }
-        else 
-        {
-            direction = 'up';
-            dropdown = <div>
-                <dl className='techlisttotal'>{imageList}</dl>
+    return (
+        <div className='main-container-2' id='techstack'>
+            <div className='techstack-heading'>
+                <div className='name2'>
+                    <h1>Tech Stack</h1>
+                </div>
             </div>
-        }
-        
-        return (
-            <div className='techstack'>
-                My Tech Stack &emsp;
-                {content}
-                <MdKeyboardArrowDown className={direction} onClick={() => {this.dropdown()}}></MdKeyboardArrowDown>
-                <div className='list'>{dropdown}</div>
-            </div>            
-        )
-  }
+            <div className='techstack-content'>
+                <div className='display-tech-content'>
+                    <div className='category-name'>Frontend Development</div>
+                    <br></br>
+                    <div className='subcategories'>
+                        <div className='subcategory-name'><img src={html} alt='html-logo' className='logo' />HTML</div>
+                        <div className='subcategory-name'><img src={css} alt='css-logo' className='logo' />CSS</div>
+                        <div className='subcategory-name'><img src={js} alt='js-logo' className='logo' />JavaScript</div>
+                        <div className='subcategory-name'><img src={react} alt='react-logo' className='logo' />React</div>
+                    </div>
+                </div>
+                <div className='display-tech-content'>
+                <div className='category-name'>Competitive Coding</div>
+                    <br></br>
+                    <div className='subcategories'>
+                        <div className='subcategory-name'><img src={cplusplus} alt='cplusplus-logo' className='logo' />C++</div>
+                        <div className='subcategory-name'><img src={dsa} alt='dsa-logo' className='logo' />DSA</div>
+                    </div>
+                </div>
+                
+                <div className='display-tech-content'>
+                <div className='category-name'>Database Management</div>
+                    <br></br>
+                    <div className='subcategories'>
+                        <div className='subcategory-name'><img src={sqlserver} alt='sqlserver-logo' className='logo' />SQL Server</div>
+                        <div className='subcategory-name'><img src={mysql} alt='mysql-logo' className='logo' />MySQL</div>
+                    </div>
+                    
+                </div>
+                <div className='display-tech-content'>
+                <div className='category-name'>Analytics and Visualisations</div>
+                    <br></br>
+                    <div className='subcategories'>
+                        <div className='subcategory-name'><img src={tableau} alt='tableau-logo' className='logo' />Tableau</div>
+                        <div className='subcategory-name'><img src={powerbi} alt='powerbi-logo' className='logo' />Power Bi</div>
+                        <div className='subcategory-name'><img src={excel} alt='excel-logo' className='logo' />Excel</div>
+                        <div className='subcategory-name'><img src={python} alt='react-logo' className='logo' />Python</div>
+                    </div>
+                </div>
+                <div className='display-tech-content'>
+
+                <div className='category-name'>Backend Developement</div>
+                    <br></br>
+                    <div className='subcategories'>
+                        <div className='subcategory-name'><img src={java} alt='java-logo' className='logo' />Java</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    )
 }
 
 export default TechStack;

@@ -1,12 +1,12 @@
 import React from 'react'
 import gym from '../logos/gym.png'
 import cooking from '../logos/cooking.png'
-import hindu from '../logos/lord-krishna.png'
+import dog from '../logos/dog.jpg'
 
 const Hobbies = (props) => {
-    return <div>
+    return <div className='main-container'>
         <div className='about'>
-            <div className='hobby-container'>Lets have a chat on</div>
+            <div className='hobby-container name'>Lets have a chat on</div>
             <div className='hobby-names'>
                 <div className='hobby-list-1'>
                     <div><img src={gym} alt='gym_pic' className='hobby-pic'></img></div>
@@ -17,8 +17,8 @@ const Hobbies = (props) => {
                     <div className='hobby-content'>Cooking</div>
                 </div>
                 <div className='hobby-list-3'>
-                    <div><img src={hindu} alt='hindu_mythology' className='hobby-pic'></img></div>
-                    <div className='hobby-content'>Hindu Mythology</div>
+                    <div><img src={dog} alt='pets_pic' className='hobby-pic'></img></div>
+                    <div className='hobby-content'>Pets</div>
                 </div>
             </div>
         </div>

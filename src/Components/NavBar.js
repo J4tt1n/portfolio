@@ -21,19 +21,19 @@ const NavBar = (props) => {
             id: 2,
             icon: linkedinlogo,
             social: 'Linkedin',
-            info: '/jattinjaggi'
+            info: 'https://www.linkedin.com/in/jattinjaggi'
         },
         {
             id: 3,
             icon: githublogo,
             social: 'Github',
-            info: '/J4tt1n'
+            info: 'https://github.com/J4tt1n/'
         },
         {
             id: 4,
             icon: codecheflogo,
             social: 'Codechef',
-            info: '/j4ttin'
+            info: 'https://www.codechef.com/users/j4ttin'
         }   
     ]
 
@@ -42,21 +42,39 @@ const NavBar = (props) => {
             id: 4,
             icon: leetcodelogo,
             social: 'Leetcode',
-            info: ' '
+            info: 'https://leetcode.com/J4tt1n/'
         },
         {
             id: 5,
             icon: instagramlogo,
             social: 'Instagram',
-            info: ''
+            info: 'https://www.instagram.com/_jattinnn._/'
         },
         {
             id: 6,
             icon: gfglogo,
-            social: 'GeeksForGeeks',
-            info: ''
+            social: 'GfG',
+            info: 'https://www.geeksforgeeks.org/user/jattinjaggi2002/'
         }
     ]
+
+    const handleCopyToClipBoard = (text) => {
+        console.log(text);
+        if (text==='jattinjaggi2002@gmail.com')
+        {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            alert(`Copied the text: ${text}`);
+        }
+        else
+        {
+            window.location.href = text;
+        }
+    };
 
     const [directions, dropit] = useState(0);
     const [direction2, dropmore] = useState(0);
@@ -70,13 +88,13 @@ const NavBar = (props) => {
 
     const more = itemsmore.map((itemmore) => (
         <div key={itemmore.id} className='social-content'>
-            <span><img src={itemmore.icon} alt={itemmore.social} className='contact-logo'></img></span>
+            <span id={itemmore.id}><img src={itemmore.icon} alt={itemmore.social} className='contact-logo'></img></span>
             <span>{itemmore.social}</span>
         </div>
     ));
 
     const dropdown = socials.map((social) => (
-        <div key={social.id} className='social-content'>
+        <div key={social.id} className='social-content' onClick={()=> handleCopyToClipBoard(social.info)}>
             <span><img src={social.icon} alt={social.social} className='contact-logo'></img></span>
             <span>{social.social}</span>
         </div>
@@ -85,29 +103,24 @@ const NavBar = (props) => {
     if (directions && direction2) {
         content = dropdown.concat(more);
     }
-    else if (directions && direction2===0)
-    {
+    else if (directions && direction2===0) {
         content = dropdown.concat(more_symbol)
     }
-
 
     return <div className="navbar-container" id='home'>
             <div className='navbar-content'>
                 <div className='navbar-1'><Link to='home' smooth={true} duration={500}>HOME</Link></div>
-                <div className='navbar-2'><Link to='aboutme' smooth={true} duration={500}>ABOUT</Link></div>
+                <div className='navbar-2'><Link to='techstack' smooth={true} duration={500}>TECH STACK</Link></div>
                 <div className='navbar-3'><Link to='projects' smooth={true} duration={500}>PROJECTS</Link></div>
                 <div className='navbar-4'>
                     <div className={`contact-container`}>
                     <button onClick={()=>dropit(1-directions)} className="text-container">Contacts</button>
                     </div>
                     <div className='social-container'>
-                        {content}
-                        
+                        {content}      
                     </div>
                 </div>
-                    
             </div>
-            
         </div>
 }
 
