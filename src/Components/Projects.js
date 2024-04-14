@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import '../App.css'
-import { MdKeyboardArrowDown } from "react-icons/md";
 import ProjectCards from './ProjectCards';
 
 
