@@ -24,7 +24,7 @@ function TechStack() {
                 </div>
             </div>
             <div className='techstack-content'>
-                <div className='display-tech-content'>
+                <div className='display-tech-content cat1'>
                     <div className='category-name'>Frontend Development</div>
                     <br></br>
                     <div className='subcategories'>
@@ -34,7 +34,7 @@ function TechStack() {
                         <div className='subcategory-name'><img src={react} alt='react-logo' className='logo' />React</div>
                     </div>
                 </div>
-                <div className='display-tech-content'>
+                <div className='display-tech-content cat2'>
                 <div className='category-name'>Competitive Coding</div>
                     <br></br>
                     <div className='subcategories'>
@@ -43,7 +43,7 @@ function TechStack() {
                     </div>
                 </div>
                 
-                <div className='display-tech-content'>
+                <div className='display-tech-content cat3'>
                 <div className='category-name'>Database Management</div>
                     <br></br>
                     <div className='subcategories'>
@@ -52,7 +52,7 @@ function TechStack() {
                     </div>
                     
                 </div>
-                <div className='display-tech-content'>
+                <div className='display-tech-content cat4'>
                 <div className='category-name'>Analytics and Visualisations</div>
                     <br></br>
                     <div className='subcategories'>
@@ -62,7 +62,7 @@ function TechStack() {
                         <div className='subcategory-name'><img src={python} alt='react-logo' className='logo' />Python</div>
                     </div>
                 </div>
-                <div className='display-tech-content'>
+                <div className='display-tech-content cat5'>
 
                 <div className='category-name'>Backend Developement</div>
                     <br></br>

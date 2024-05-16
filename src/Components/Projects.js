@@ -42,7 +42,7 @@ const Projects = () => {
         <ProjectCards  id={project.id} title={project.title} duration={project.duration} description={project.desc} link={project.link}></ProjectCards> 
     )
     
-    return <div className='about main-container-2' id='projects'>
+    return <div className='about main-container-4' id='projects'>
         <div>&nbsp;</div>
         <div className='name2'><h2>Take a look at my recent projects</h2></div>
         <div className='projects container'>

@@ -17,14 +17,13 @@ const Slider = () => {
       header: 'Waste Segregation using Deep Learning',
       place: 'International Journal of Innovative Science and Research Technology',
       desc: <p>The paper introduces an AI-based waste segregation system utilizing Convolution Neural Networks (CNNs) wherein it automatically indetifies the type of waste with a high accuracy of 90.4% with precision of 88% and F1 score of 0.82. <br /> <a href="https://doi.org/10.5281/zenodo.10243786">https://doi.org/10.5281/zenodo.10243786</a></p>
-
     },
     {
       title: 'Internship #2',
       header: 'Salesforce Associate Intern',
       duration: 'May \'22 - July \'22',
       place: 'Aekot Consulting',
-      desc: 'Making highly interactive and user-friendly lightning web components on Salesforce. Implementing dynamic data integration, enabling real-time retrieval and display of information from the Salesforce database on the web pages. Learning about Salesforce basics, Apex Testing, Lightning Web Components, etc. on Trailhead. hello ',
+      desc: 'Making highly interactive and user-friendly lightning web components on Salesforce. Implementing dynamic data integration, enabling real-time retrieval and display of information from the Salesforce database on the web pages. Learning about Salesforce basics, Apex Testing, Lightning Web Components, etc. on Trailhead.',
     }
   ];
 
@@ -42,7 +41,7 @@ const Slider = () => {
   };
 
   return (
-    <div className='main-container'>
+    <div className='main-container3'>
       <div className='slider-container'>
         <div className='slider-head' style={{ transform: `translateX(-${activeItem * 100}%)` }}>
           {items.map((item, index) => (
