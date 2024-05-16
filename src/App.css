@@ -646,7 +646,7 @@ code {
 
 .scroll-button {
   position: fixed;
-  left: 0;
+  right: 0;
   bottom: 0;
   font-size: 2.5rem;
   z-index: 1;
@@ -949,4 +949,29 @@ code {
   background-color: white;
   border-style: none;
   font-size: 30px;
+}
+
+
+.cat-pic {
+  position: fixed;
+  bottom: 2px;
+  left: 25px;
+  width: 180px;
+  height: 135px;
+}
+
+.left-eye {
+  position: fixed;
+  bottom: 8px;
+  left: 72px;
+  width: 36px;
+  height: auto;
+}
+
+.right-eye {
+  position: fixed;
+  bottom: 7px;
+  width: 37px;
+  height: auto;
+  left: 127px;
 }
