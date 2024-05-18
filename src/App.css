@@ -524,6 +524,12 @@ code {
   width: 150px;
 }
 
+@media screen and (max-width: 400px) {
+  .social-container {
+    transform: translate(-10%, 50px);
+  }
+}
+
 .social-content {
   color: black;
   padding: 10px 10px;
