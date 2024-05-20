@@ -9,7 +9,11 @@ const ProjectCards = (props) =>
             <div className='project-date'>{props.duration}</div>
             <div className='project-content'>{props.description}</div>
         </div>
-        <div><a href={props.link} className='project-extra' rel='noopener noreferrer'>Read More</a></div>
+        {
+            props.id === 1 || props.id === 2 ?
+            <div><a href={props.link} className='project-extra' rel='noopener noreferrer'>Read More</a></div>
+            : <div className='project-extra'></div>
+        }
     </div>
 }
 
