@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import html from '../logos/html.svg'
 import css from '../logos/css.svg'
 import js from '../logos/js.svg'
@@ -14,7 +14,6 @@ import python from '../logos/python.svg'
 import java from '../logos/java.svg'
 
 function TechStack() {
-
 
     return (
         <div className='main-container-2' id='techstack'>

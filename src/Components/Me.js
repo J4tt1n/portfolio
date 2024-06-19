@@ -1,6 +1,5 @@
 // Me.js
 import React from 'react';
-import { Link } from 'react-scroll';
 import profilephoto from '../logos/profilephoto.jpg';
 import '../App.css';
 
@@ -12,11 +11,11 @@ function Me() {
           <img src={profilephoto} className='photo' alt='Profile' />
         </div>
         <div className='name'>
-          <h1>Jattin Jaggi - Technical Associate </h1>
+          <h1>Jattin Jaggi - Data Engineer </h1>
         </div>
         <div className='text'>
-        Enthusiastic recent graduate with a passion for technology, continuous learning, and skilled in developing software, models, and analysis.
-        Actively involved in data analysis, aiming for a role in the technology domain that cultivates personal and professional growth within a collaborative and goal-driven environment. 
+        EEnthusiastic recent graduate with a passion for technology, continuous learning, and skilled in developing software, models, and analysis. 
+        Actively involved in data analysis, aiming for a role in the technology domain that cultivates personal and professional growth within a collaborative and goal-driven environment.
         </div>
       </div>
     </div>

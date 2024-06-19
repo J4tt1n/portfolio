@@ -7,10 +7,10 @@ const Slider = () => {
   const items = [
     {
       title: 'Internship #1',
-      header: 'Technical Associate Intern',
-      duration: 'Jan \'24 - Present',
+      header: 'Data Analytics Intern',
+      duration: 'Jan \'24 - June \'24',
       place: 'Merilytics',
-      desc: 'Leveraging SQL, Python (Pandas & NumPy) for comprehensive financial data analysis, including creating views and modifying tables to generate revenue insights for a financial company. Crafting insightful data visualizations using Tableau and Power Bi, incorporating measures for effective presentation and interpretation.',
+      desc: 'Using SQL, Python (Pandas & NumPy) for comprehensive financial data analysis and building insight tables to optimize financial performance. Optimizing a complex 3000 lines of SQL Query, reducing runtime from 40 minutes to 16 minutes. Crafting insightful data visualizations',
     },
     {
       title: 'Publication',
