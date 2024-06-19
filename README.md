@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This project showcases my skills, projects, and experience. The portfolio is built using React, HTML, CSS, and JavaScript.
 
-## Available Scripts
+## You can view my portfolio [here.](https://jattin-jaggi.vercel.app/)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Introduction](#introduction)
+- [About Me](#about-me)
+- [Tech Stack](#tech-stack)
+- [Work Experience](#work-experience)
+- [Projects](#projects)
+- [Hobbies](#hobbies)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This portfolio is designed to give an overview of my professional background, including my skills, projects, and work experience. It serves as a central place where you can learn more about me and my work. I aim to provide a transparent and comprehensive view of my professional capabilities and personal interests.
 
-### `npm test`
+## About Me
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Welcome to the "About Me" section where you can learn more about my professional journey. Here, you'll find information on my background, career goals, and personal interests. I am passionate about technology and continuously strive to improve my skills and knowledge in this ever-evolving field.
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this section, you can explore the various technologies I am proficient in. My tech stack includes front-end technologies like React, HTML, CSS, and JavaScript. I have experience working with these technologies on multiple projects, ensuring I can deliver high-quality, responsive, and user-friendly web applications.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Work Experience
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here, you'll find detailed information about my professional experiences, including internships and publications. Each entry outlines my role, responsibilities, and key achievements, providing a comprehensive overview of my career development and the value I bring to a team.
 
-### `npm run eject`
+## Projects
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This section showcases my projects, providing descriptions, images, and GitHub links where applicable. Each project highlights my problem-solving skills, creativity, and technical expertise. Whether it's a web application, a collaborative project, or a personal endeavor, you can see the breadth and depth of my work here.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Hobbies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In the "Hobbies" section, I share my personal interests and activities that I enjoy outside of work. From reading and traveling to coding for fun and exploring new technologies, this section gives you a glimpse into what I enjoy doing in my free time and what keeps me motivated and inspired.
