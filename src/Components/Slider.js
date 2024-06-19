@@ -8,7 +8,7 @@ const Slider = () => {
     {
       title: 'Internship #1',
       header: 'Data Analytics Intern',
-      duration: 'Jan \'24 - June \'24',
+      duration: 'Jan \'24 - Jun \'24',
       place: 'Merilytics',
       desc: 'Using SQL, Python (Pandas & NumPy) for comprehensive financial data analysis and building insight tables to optimize financial performance. Optimizing a complex 3000 lines of SQL Query, reducing runtime from 40 minutes to 16 minutes. Crafting insightful data visualizations',
     },
