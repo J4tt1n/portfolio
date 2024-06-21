@@ -14,7 +14,7 @@ function Me() {
           <h1>Jattin Jaggi - Data Engineer </h1>
         </div>
         <div className='text'>
-        EEnthusiastic recent graduate with a passion for technology, continuous learning, and skilled in developing software, models, and analysis. 
+        Enthusiastic recent graduate with a passion for technology, continuous learning, and skilled in developing software, models, and analysis. 
         Actively involved in data analysis, aiming for a role in the technology domain that cultivates personal and professional growth within a collaborative and goal-driven environment.
         </div>
       </div>
