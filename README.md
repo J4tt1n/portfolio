@@ -23,7 +23,7 @@ Welcome to the "About Me" section where you can learn more about my professional
 
 ## Tech Stack
 
-In this section, you can explore the various technologies I am proficient in. My tech stack includes front-end technologies like React, HTML, CSS, and JavaScript. I have experience working with these technologies on multiple projects, ensuring I can deliver high-quality, responsive, and user-friendly web applications.
+In this section, you can explore the various technologies I am proficient in. My tech stack includes front-end technologies, competitive coding, database mgmt, etc. I have experience working with these technologies on multiple projects, ensuring I can deliver high-quality, responsive, and user-friendly web applications.
 
 ## Work Experience
 

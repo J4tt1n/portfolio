@@ -36,8 +36,6 @@ const NavBar = (props) => {
             social: 'Codechef',
             info: 'https://www.codechef.com/users/j4ttin'
         },
-
- 
     ]
 
     const itemsmore = [
