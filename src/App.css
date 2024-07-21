@@ -177,6 +177,7 @@ code {
   width: 20px;
   height: 20px;
   transform: translateY(4px);
+  /* object-fit: contain; */
 }
 
 .up {

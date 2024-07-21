@@ -6,6 +6,7 @@ import codecheflogo from '../logos/codechef.png'
 import leetcodelogo from '../logos/leetcode.png'
 import instagramlogo from '../logos/instagram.png'
 import gfglogo from '../logos/gfg.png'
+import codeforceslogo from '../logos/codeforces.png'
 import { Link } from 'react-scroll'
 
 const NavBar = (props) => {
@@ -34,24 +35,32 @@ const NavBar = (props) => {
             icon: codecheflogo,
             social: 'Codechef',
             info: 'https://www.codechef.com/users/j4ttin'
-        }   
+        },
+
+ 
     ]
 
     const itemsmore = [
         {
-            id: 4,
+            id: 5,
+            icon: codeforceslogo,
+            social: 'Codeforces',
+            info: 'https://codeforces.com/profile/J4tt1n'
+        },
+        {
+            id: 6,
             icon: leetcodelogo,
             social: 'Leetcode',
             info: 'https://leetcode.com/J4tt1n/'
         },
         {
-            id: 5,
+            id: 7,
             icon: instagramlogo,
             social: 'Instagram',
             info: 'https://www.instagram.com/_jattinnn._/'
         },
         {
-            id: 6,
+            id: 8,
             icon: gfglogo,
             social: 'GfG',
             info: 'https://www.geeksforgeeks.org/user/jattinjaggi2002/'

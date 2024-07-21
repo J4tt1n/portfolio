@@ -12,6 +12,7 @@ import powerbi from '../logos/powerbi.svg'
 import excel from '../logos/excel.svg'
 import python from '../logos/python.svg'
 import java from '../logos/java.svg'
+import tailwindcss from '../logos/tailwindcss.png';
 
 function TechStack() {
 
@@ -31,6 +32,7 @@ function TechStack() {
                         <div className='subcategory-name'><img src={css} alt='css-logo' className='logo' />CSS</div>
                         <div className='subcategory-name'><img src={js} alt='js-logo' className='logo' />JavaScript</div>
                         <div className='subcategory-name'><img src={react} alt='react-logo' className='logo' />React</div>
+                        <div className='subcategory-name'><img src={tailwindcss} alt='tailwindcss-logo' className='logo'/>Tailwind</div>
                     </div>
                 </div>
                 <div className='display-tech-content cat2'>
@@ -41,7 +43,6 @@ function TechStack() {
                         <div className='subcategory-name'><img src={dsa} alt='dsa-logo' className='logo' />DSA</div>
                     </div>
                 </div>
-                
                 <div className='display-tech-content cat3'>
                 <div className='category-name'>Database Management</div>
                     <br></br>
@@ -49,7 +50,6 @@ function TechStack() {
                         <div className='subcategory-name'><img src={sqlserver} alt='sqlserver-logo' className='logo' />SQL Server</div>
                         <div className='subcategory-name'><img src={mysql} alt='mysql-logo' className='logo' />MySQL</div>
                     </div>
-                    
                 </div>
                 <div className='display-tech-content cat4'>
                 <div className='category-name'>Analytics and Visualisations</div>
@@ -62,14 +62,12 @@ function TechStack() {
                     </div>
                 </div>
                 <div className='display-tech-content cat5'>
-
                 <div className='category-name'>Backend Developement</div>
                     <br></br>
                     <div className='subcategories'>
                         <div className='subcategory-name'><img src={java} alt='java-logo' className='logo' />Java</div>
                     </div>
                 </div>
-
             </div>
         </div>
     )
