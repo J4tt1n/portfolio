@@ -12,7 +12,8 @@ import powerbi from '../logos/powerbi.svg'
 import excel from '../logos/excel.svg'
 import python from '../logos/python.svg'
 import java from '../logos/java.svg'
-import tailwindcss from '../logos/tailwindcss.png';
+import tailwindcss from '../logos/tailwindcss.png'
+import databricks from '../logos/databricks.png';
 
 function TechStack() {
 
@@ -49,6 +50,7 @@ function TechStack() {
                     <div className='subcategories'>
                         <div className='subcategory-name'><img src={sqlserver} alt='sqlserver-logo' className='logo' />SQL Server</div>
                         <div className='subcategory-name'><img src={mysql} alt='mysql-logo' className='logo' />MySQL</div>
+                        <div className='subcategory-name'><img src={databricks} alt='databricks-logo' className='logo' />Databricks</div>
                     </div>
                 </div>
                 <div className='display-tech-content cat4'>
